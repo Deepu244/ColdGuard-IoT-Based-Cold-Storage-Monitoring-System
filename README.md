@@ -128,7 +128,7 @@ Built on the **NXP LPC2148 ARM7TDMI-S** microcontroller, ColdGuard provides:
 
 The LPC2148 clock tree is configured in `Startup.s` and `main.c`:
 
-<img src="images/system_clock_configuration.png" alt="System Clock Configuration" width="700"/>
+![img alt](https://github.com/mahendra-23k/Cold-Guard-IoT-Storage-System/blob/main/System%20Clock%20Configuration.png?raw=true)
 
 ---
 
@@ -161,7 +161,7 @@ The LPC2148 clock tree is configured in `Startup.s` and `main.c`:
 
 ## 🗺️ Circuit Block Diagram
 
-<img src="images/circuit_block_diagram.png" alt="Circuit Block Diagram" width="700"/>
+![img alt](https://github.com/mahendra-23k/Cold-Guard-IoT-Storage-System/blob/main/Circuit%20block%20Diagram.png?raw=true)
 
 ### Interrupt Map
 
@@ -177,11 +177,11 @@ The LPC2148 clock tree is configured in `Startup.s` and `main.c`:
 
 The firmware follows a **modular driver architecture** — each peripheral has its own `.c`/`.h` pair with a clean public API:
 
-<img src="images/software_architecture.png" alt="Software Architecture" width="700"/>
+![img alt](https://github.com/mahendra-23k/Cold-Guard-IoT-Storage-System/blob/main/Software%20Architechture.png?raw=true)
 
 ### Main Loop State Machine
 
-<img src="images/main_loop_state_machine.png" alt="Main Loop State Machine" width="700"/>
+![img alt](https://github.com/mahendra-23k/Cold-Guard-IoT-Storage-System/blob/main/Main%20Loop%20State%20Machine.jpeg?raw=true)
 
 ---
 
@@ -204,7 +204,7 @@ Data is uploaded to **ThingSpeak** via HTTP GET requests through the ESP-01 Wi-F
 
 The 16×2 LCD shows different screens depending on system state:
 
-<img src="images/lcd_display_states.png" alt="LCD Display States" width="700"/>
+![img alt](https://github.com/mahendra-23k/Cold-Guard-IoT-Storage-System/blob/main/LCD%20Display%20States.jpeg?raw=true)
 
 ---
 
@@ -229,7 +229,7 @@ All user-adjustable settings are defined in [`config.h`](config.h):
 
 The configuration menu is hardware-gated behind an external interrupt (EINT3) and software-gated behind a 4-digit PIN:
 
-<img src="images/menu_password_system.png" alt="Menu & Password System" width="700"/>
+![img alt](https://github.com/mahendra-23k/Cold-Guard-IoT-Storage-System/blob/main/Menu%20&%20Password%20System.jpeg?raw=true)
 
 ### Menu Options
 
