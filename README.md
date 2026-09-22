@@ -95,7 +95,7 @@ Built on the **NXP LPC2148 ARM7TDMI-S** microcontroller, ColdGuard provides:
 
 ### 3. ThingSpeak IoT Dashboard
 
-<img src="images/thingspeak_dashboard.png" alt="ThingSpeak Dashboard" width="700"/>
+![img alt](https://github.com/Deepu244/ColdGuard-IoT-Based-Cold-Storage-Monitoring-System/blob/main/ThingSpeak%20IoT%20Dashboard.png?raw=true) 
 
 ---
 
